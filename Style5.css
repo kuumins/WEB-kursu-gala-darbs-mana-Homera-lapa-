@@ -1,0 +1,98 @@
+/*prasmes.html stili*/
+
+img {
+    /*border-radius: 100px*/
+    width: 100px;
+    display: inline-block;
+    padding-top: 0px;
+    }
+
+form {
+    display: inline-block;
+    }
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 30px;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;   
+    }
+
+    .btn:hover {background: rgb(244, 246, 248);}
+
+.MJT {margin-left: 10%; 
+    margin-right: 40%; 
+    padding-top: 0px; 
+    margin-bottom: 10%;
+    }
+
+.sakums {
+    color: olive;
+    }
+
+.projekti {
+    color: olive;
+    }
+
+.prasmes {
+    color: olive;
+    }   
+
+.sazinies {
+    color: olive;
+    }
+
+
+h1 {
+    font-family: 'Ephesis', cursive;
+    font-size: 100px;
+    margin-top: 0px;
+    }
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    }
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    }
+
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    }
+
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    }
+
+.color {
+    color:maroon;
+    }
+
+.center {
+    text-align: center ;
+    align-content: center;
+    }
+
+.progress { 
+    margin-left: auto; 
+    margin-right:auto; 
+    position: relative;
+    }
+
+footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    }

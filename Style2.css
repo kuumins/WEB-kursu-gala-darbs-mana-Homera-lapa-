@@ -1,0 +1,108 @@
+/*index.html stili*/
+
+h1 {
+    color: darkred;
+    margin-bottom: 0;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    }
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5rem;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+img {
+    width: 100px;
+    display: inline-block;
+    padding-top: 0px;
+    }
+
+form {
+    display: inline-block;
+    }
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 30px;
+    width: 150px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;   
+    }
+
+    .btn:hover {
+        background: rgb(244, 246, 248);
+    }
+
+.MJT {
+    margin-left: 10%; 
+    margin-right: 40%; 
+    padding-top: 0px; 
+    margin-bottom: 10%;
+    }
+
+.sakums {
+    color: olive;
+    }
+
+.projekti {
+    color: olive;
+    }
+
+.prasmes {
+    color: olive;
+    }
+
+.sazinies {color: olive;
+    }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center ;
+     }
+
+input {
+    background-color: lightcyan;
+    }
+
+textarea {
+    background: lightcyan;
+    }
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+
+footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    }
+
+.error {
+    color: darkred;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+
+}

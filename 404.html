@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <!--lapas (tab`a) nosaukums-->
+        <title>404</title>
+        <!--latviešu burtu ielase-->
+        <meta charset='utf-8' />
+        <!--saderība ar mobilajiem-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--fontu ielase-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+        <!--CSS stila faila ielase-->
+        <link rel="stylesheet" type="text/css" href="./Style2.css" />
+    </head>
+	<body>
+        <header>
+            <!--"MJT" logo poga ar skaņu-->
+            <audio id="sound1" src="faili/doh.mp3" preload="auto"></audio>
+            <button class="btn MJT" onclick="document.getElementById('sound1').play();"><img src="faili/MJTlogo.jpg" alt="MJTlogo"></button>
+            <!--Izvēlne "Sākums"-->
+            <form action="index.html">
+                <button class="btn sakums">Sākums</button>
+            </form>
+            <!--Izvēlne "Projekti"-->
+            <form action="projekti.html">
+                <button class="btn projekti">Projekti</button>
+            </form>
+            <!--Izvēlne "Prasmes"-->
+            <form action="prasmes.html">
+                <button class="btn prasmes">Prasmes</button>
+            </form>
+            <!--Izvēlne "Sazinies"-->
+            <form action="sazinies.html">
+                <button class="btn sazinies">Sazinies</button>
+            </form>
+                <br>
+        </header>
+        <main>
+            <p class="error"> 404 - Lapa nav atrasta! </p>
+        </main>
+        <footer class="center">
+            <!--lapas autors un autora kontaktinfo-->
+            <p>Lapas autors: <b>MJT</b><br>
+            <a href="mailto:mjt@izdomats.com">mjt@izdomats.com</a><br>
+            +371 23456789</p>
+        </footer>
+    </body>
+</html>
+

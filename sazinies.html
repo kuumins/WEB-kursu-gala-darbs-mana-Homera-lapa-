@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <meta charset='utf-8' />
+      <!--saderība ar mobilajiem-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kontakti</title>
+      <link rel="stylesheet" type="text/css" href="./Style6.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>         
+    <audio id="sound1" src="faili/doh.mp3" preload="auto"></audio>
+    <button class="btn MJT" onclick="document.getElementById('sound1').play();"><img src="faili/MJTlogo.jpg" alt="MJTlogo"></button>
+    <form action="index.html">
+      <button class="btn sakums">Sākums</button>
+    </form>
+    <form action="projekti.html">
+      <button class="btn projekti">Projekti</button>
+    </form>
+    <form action="prasmes.html">
+      <button class="btn prasmes">Prasmes</button>
+    </form>
+    <form action="sazinies.html">
+      <button class="btn sazinies">Sazinies</button>
+    </form>
+      <br>
+    <h1 style="font-family: 'Open Sans Condensed', sans-serif;">Mani kontakti:</h1>
+    <h2 style="color: olive;">Mārtiņš Jānis Tenisons</h2>
+    <h3 style="color: olive;">+371 23456789</h3>
+    <h3 style="color: olive;">mjt@izdomats.com</h3>
+      <br>
+    <h2>Vai atstāj ziņu šeit:</h2>
+    <div class="container">
+      <form method="POST" action="mailto:maartinsjaanis@gmail.com" style="display: block;">     
+        <input type="text" id="name" name="name" placeholder="Jūsu vārds un uzvārds" style="width: 10%;" required="required">
+        <br>
+        <input type="email" id="email" name="email" placeholder="Jūsu e-pasts" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="width: 10%;">
+        <br>
+        <input type="tel" id="phone" name="phone" placeholder="371-23456789" pattern="[0-9]{3}-[0-9]{8}" required style="width: 10%;">
+        <br>
+        <textarea id="subject" name="subject" placeholder="Jūsu ziņojums" style="width: 20%; height:200px" required="required"></textarea> 
+        <br>
+        <input type="submit" value="Nosūtīt" class="button" style="width: 100px; height: 50px;">
+        </form>
+    </div>
+  </body>
+</html>
